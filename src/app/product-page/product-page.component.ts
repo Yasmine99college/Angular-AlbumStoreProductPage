@@ -8,8 +8,9 @@ import {ProductService}  from '../product.service';
   styleUrls: ['./product-page.component.css']
 })
 export class ProductPageComponent implements OnInit {
+  albuminfo:Album;
 
-  constructor() { }
+  constructor(private _productService:ProductService) { }
 
   ngOnInit() {
   }
