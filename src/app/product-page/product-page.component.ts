@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import {ProductService}  from '../product.service';
-import {Album} from '../album';
+// import {ProductService}  from '../product.service';
+// import {Album} from '../album';
 
 
 @Component({
@@ -10,12 +10,12 @@ import {Album} from '../album';
 })
 export class ProductPageComponent implements OnInit {
 
-  albumInfo:Album;
-  ngOnInit()
-  {this._productService.getAlbum(1).subscribe(response => this.albumInfo = response);}
+  // albumInfo:Album;
+  // ngOnInit()
+  // {this._productService.getAlbum(1).subscribe(response => this.albumInfo = response);}
 
-  constructor(private _productService:ProductService) { }
-
+  constructor() { }
+  // private _productService:ProductService
   ngOnInit() {
   }
 
