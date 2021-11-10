@@ -15,7 +15,7 @@ const appRoutes:Routes=[
 component:ProductListComponent},
 {path:'product/:id',component:ProductPageComponent}
 ];
-{};
+// {};
 
 @NgModule({
   declarations: [
